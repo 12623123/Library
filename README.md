@@ -1,6 +1,17 @@
 # Library Management Application
 
-A C# desktop application for managing a library.
+A C# Windows Forms desktop application for managing the day-to-day operations of a small library or bookstore. The application uses a local Microsoft SQL Server database to store supplier, inventory, and sales information.
+
+## What the application does
+
+The main window is divided into several sections:
+
+- **Suppliers** — Add and save supplier information, including the supplier name, identification number, telephone number, email address, and contact person.
+- **Sales** — Record sales by entering the product number, quantity, selling price, supplier identification number, and sale date. Dates must use the `YYYY-MM-DD` format.
+- **Inventory** — View the products currently stored in the database in a table.
+- **Daily turnover** — Select a date to view the sales made on that day and calculate the total revenue for the selected date.
+
+All changes and searches are saved to or loaded from the `knijarnica` SQL Server database. The application is intended for a local Windows environment and provides a simple graphical interface for managing library or bookstore records.
 
 ## Requirements
 
